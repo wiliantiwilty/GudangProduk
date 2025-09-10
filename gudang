@@ -47,8 +47,8 @@
 
 <script>
   // Ganti dengan key Supabase kamu
-  const SUPABASE_URL = "https://llhzumawhezvpflmdewa.supabase.co";
-  const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxsaHp1bWF3aGV6dnBmbG1kZXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyODI5MzAsImV4cCI6MjA3Mjg1ODkzMH0._o2TMSrKyjRq0IQzBTlYHxXC3LVmttvZfS2Es-dJwno";
+  const SUPABASE_URL = "your url";
+  const SUPABASE_KEY = "your key";
 
   const { createClient } = supabase;
   const db = createClient(SUPABASE_URL, SUPABASE_KEY);
